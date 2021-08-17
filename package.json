@@ -4,6 +4,9 @@
   "description": "SerenityOS Discord Bot",
   "main": "index.js",
   "license": "BSD-2-Clause",
+  "engines": {
+    "node": ">=16.6"
+  },
   "scripts": {
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
@@ -37,26 +40,26 @@
   },
   "homepage": "https://github.com/SerenityOS/discord-bot#readme",
   "devDependencies": {
-    "@octokit/types": "^6.18.1",
-    "@typescript-eslint/eslint-plugin": "^4.28.2",
-    "@typescript-eslint/parser": "^4.28.2",
-    "eslint": "^7.30.0",
+    "@octokit/types": "^6.25.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-unused-imports": "^1.1.2",
-    "nodemon": "^2.0.9",
+    "eslint-plugin-unused-imports": "^1.1.4",
+    "nodemon": "^2.0.12",
     "prettier": "^2.3.2",
-    "ts-node": "^10.0.0"
+    "ts-node": "^10.2.0"
   },
   "dependencies": {
-    "@octokit/rest": "^18.6.7",
-    "@types/node": "^16.0.1",
-    "@types/node-fetch": "^2.5.11",
+    "@octokit/rest": "^18.9.1",
+    "@types/node": "^16.6.1",
+    "@types/node-fetch": "^2.5.12",
     "bufferutil": "^4.0.3",
-    "discord.js": "^12.5.3",
+    "discord.js": "^13.1.0",
     "dotenv": "^10.0.0",
-    "erlpack": "^0.1.3",
     "node-fetch": "^2.6.1",
+    "octokit-plugin-create-pull-request": "^3.9.3",
     "rimraf": "^3.0.2",
     "typescript": "^4.3.5",
     "utf-8-validate": "^5.0.5",
